@@ -17,3 +17,10 @@ sudo nginx
 sudo nginx -s reload
 /etc/nginx/conf.d/default.conf
 ```
+
+### HTTP API
+
+```
+http :80
+http :80/add/3/4
+```
